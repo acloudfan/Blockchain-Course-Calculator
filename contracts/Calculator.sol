@@ -10,7 +10,7 @@ contract Calculator {
   }
 
   // returns the result
-  function getResult() returns (uint){
+  function getResult() constant returns (uint){
     return result;
   }
 

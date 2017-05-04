@@ -15,7 +15,7 @@ contract CalculatorV2 {
   }
 
   // returns the result
-  function getResult() returns (uint){
+  function getResult() constant returns (uint){
     return result;
   }
 
@@ -35,12 +35,14 @@ contract CalculatorV2 {
 
   // result = result * num
   function multiplyWithNumber(uint num) returns (uint) {
+    result *= num;
     NumberMultiplied(num);
     return result;
   }
 
   // result = result / num
   function divideByNumber(uint num) returns (uint) {
+    result /= num;
     NumberDivided(num);
     return result;
   }

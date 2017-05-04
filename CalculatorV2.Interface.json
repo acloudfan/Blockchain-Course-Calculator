@@ -1,0 +1,152 @@
+[
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "num",
+                "type": "uint256"
+            }
+        ],
+        "name": "addToNumber",
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "payable": false,
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "num",
+                "type": "uint256"
+            }
+        ],
+        "name": "substractNumber",
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "payable": false,
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "num",
+                "type": "uint256"
+            }
+        ],
+        "name": "multiplyWithNumber",
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "payable": false,
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [],
+        "name": "getResult",
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256",
+                "value": "40"
+            }
+        ],
+        "payable": false,
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "num",
+                "type": "uint256"
+            }
+        ],
+        "name": "divideByNumber",
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "payable": false,
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "num",
+                "type": "uint256",
+                "index": 0,
+                "typeShort": "uint",
+                "bits": "256",
+                "displayName": "num",
+                "template": "elements_input_uint",
+                "value": "10"
+            }
+        ],
+        "payable": false,
+        "type": "constructor"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": false,
+                "name": "n",
+                "type": "uint256"
+            }
+        ],
+        "name": "NumberAdded",
+        "type": "event"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": false,
+                "name": "n",
+                "type": "uint256"
+            }
+        ],
+        "name": "NumberSubtracted",
+        "type": "event"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": false,
+                "name": "n",
+                "type": "uint256"
+            }
+        ],
+        "name": "NumberMultiplied",
+        "type": "event"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": false,
+                "name": "n",
+                "type": "uint256"
+            }
+        ],
+        "name": "NumberDivided",
+        "type": "event"
+    }
+]
