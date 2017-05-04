@@ -1,0 +1,79 @@
+[
+    {
+        "constant": true,
+        "inputs": [],
+        "name": "currentName",
+        "outputs": [
+            {
+                "name": "",
+                "type": "string",
+                "value": "raju"
+            }
+        ],
+        "payable": false,
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [],
+        "name": "fromAddres",
+        "outputs": [
+            {
+                "name": "",
+                "type": "address",
+                "value": "0xd280a84d81c6e5906aa16832df72c7764711e850"
+            }
+        ],
+        "payable": false,
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "yourName",
+                "type": "string"
+            }
+        ],
+        "name": "interact",
+        "outputs": [],
+        "payable": false,
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [],
+        "name": "lastUpdatedMinutes",
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256",
+                "value": "14"
+            }
+        ],
+        "payable": false,
+        "type": "function"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": false,
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "indexed": false,
+                "name": "addr",
+                "type": "address"
+            },
+            {
+                "indexed": false,
+                "name": "timeUpdated",
+                "type": "uint256"
+            }
+        ],
+        "name": "Interaction",
+        "type": "event"
+    }
+]
