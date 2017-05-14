@@ -21,7 +21,7 @@ contract Calculator {
   }
 
   // result = result - num
-  function substractNumber(uint num) returns (uint) {
+  function substractFromNumber(uint num) returns (uint) {
     result -= num;
     return result;
   }
@@ -32,7 +32,7 @@ contract Calculator {
   }
 
   // result = result / num
-  function divideByNumber(uint num) returns (uint) {
+  function divideNumberBy(uint num) returns (uint) {
     return result;
   }
 

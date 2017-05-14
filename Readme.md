@@ -1,7 +1,12 @@
 Part of the course on "Ethereum Blockchain DAPP Development"
 http://www.ACloudFan.com
 
-MAC Users:
+MAC/UBUNTU/LINUX Users:
+
 Please rename truffle-config to config.js
 
-Uses this contract as a sample for 1 of DAPP development sample and for demonstrating the use of wallets for managing contracts.
+Calculator/CalculatorV2/interactionChannel contract is used as a sample in lectures in the course
+
+1  DAPP development sample and for demonstrating the use of wallets for managing contracts
+2. For demonstrating use of Broweser based Solidity contract development
+2. Development of contracts using Truffle framework
