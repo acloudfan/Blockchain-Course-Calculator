@@ -1,9 +1,10 @@
 This file has address for the Calculator V2
-deployed on ROPSTEN Network
 
-
-Contract Address
+Contract Address for ROPSTEN Network
 0x91d5540851d98cbFB4b46EE9212EFE100eC85807
+
+Contract Address for Rinkeby Network
+0xF363Aa13ACE678F7812aa2D6C0F08A3D71020c94
 
 
 To Deploy it in the contract - use the JSON in CalculatorV2.Interface.json + Address
