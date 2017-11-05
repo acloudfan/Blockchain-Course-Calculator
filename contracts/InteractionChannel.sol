@@ -12,19 +12,19 @@ contract InteractionChannel {
   event Interaction(bytes32 indexed name, address  indexed addr, uint indexed timeUpdated);
 
 
-  function  currentName() constant  returns(bytes32){
+  function  currentName() public constant  returns(bytes32){
     return name;
   }
 
-  function  lastUpdatedMinutes() constant  returns(uint){
+  function  lastUpdatedMinutes() public constant  returns(uint){
     return ((now - lastUpdate)/60);
   }
 
-  function  fromAddres() constant returns(address){
+  function  fromAddres() public constant returns(address){
     return lastAddress;
   }
 
-  function interact(bytes32 yourName) {
+  function interact(bytes32 yourName) public {
     name = yourName;
     lastAddress = msg.sender;
     lastUpdate = now;
