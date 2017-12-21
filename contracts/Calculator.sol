@@ -4,35 +4,35 @@ contract Calculator {
 
   uint result;
 
-  function Calculator() {
+  function Calculator() public {
     // constructor
     result=10;
   }
 
   // returns the result
-  function getResult() constant returns (uint){
+  function getResult() public constant returns (uint){
     return result;
   }
 
   // result = result + num
-  function addToNumber(uint num) returns (uint) {
+  function addToNumber(uint num) public returns (uint) {
     result += num;
     return result;
   }
 
   // result = result - num
-  function substractFromNumber(uint num) returns (uint) {
+  function substractFromNumber(uint num) public returns (uint) {
     result -= num;
     return result;
   }
 
   // result = result * num
-  function multiplyWithNumber(uint num) returns (uint) {
+  function multiplyWithNumber() public view returns (uint) {
     return result;
   }
 
   // result = result / num
-  function divideNumberBy(uint num) returns (uint) {
+  function divideNumberBy() public view returns (uint) {
     return result;
   }
 
