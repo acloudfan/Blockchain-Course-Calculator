@@ -9,39 +9,39 @@ contract CalculatorV2 {
   event NumberMultiplied(uint n);
   event NumberDivided(uint n);
 
-  function CalculatorV2(uint num) {
+  function CalculatorV2(uint num) public {
     // constructor
     result=num;
   }
 
   // returns the result
-  function getResult() constant returns (uint){
+  function getResult() public constant returns (uint){
     return result;
   }
 
   // result = result + num
-  function addToNumber(uint num) returns (uint) {
+  function addToNumber(uint num) public returns (uint) {
     result += num;
     NumberAdded(num);
     return result;
   }
 
   // result = result - num
-  function substractNumber(uint num) returns (uint) {
+  function substractNumber(uint num) public returns (uint) {
     result -= num;
     NumberSubtracted(num);
     return result;
   }
 
   // result = result * num
-  function multiplyWithNumber(uint num) returns (uint) {
+  function multiplyWithNumber(uint num) public returns (uint) {
     result *= num;
     NumberMultiplied(num);
     return result;
   }
 
   // result = result / num
-  function divideByNumber(uint num) returns (uint) {
+  function divideByNumber(uint num) public returns (uint) {
     result /= num;
     NumberDivided(num);
     return result;
