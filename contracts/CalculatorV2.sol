@@ -22,28 +22,28 @@ contract CalculatorV2 {
   // result = result + num
   function addToNumber(uint num) public returns (uint) {
     result += num;
-    NumberAdded(num);
+    emit NumberAdded(num);
     return result;
   }
 
   // result = result - num
   function substractNumber(uint num) public returns (uint) {
     result -= num;
-    NumberSubtracted(num);
+    emit NumberSubtracted(num);
     return result;
   }
 
   // result = result * num
   function multiplyWithNumber(uint num) public returns (uint) {
     result *= num;
-    NumberMultiplied(num);
+    emit NumberMultiplied(num);
     return result;
   }
 
   // result = result / num
   function divideByNumber(uint num) public returns (uint) {
     result /= num;
-    NumberDivided(num);
+    emit NumberDivided(num);
     return result;
   }
 
