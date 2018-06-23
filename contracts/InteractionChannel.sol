@@ -28,7 +28,7 @@ contract InteractionChannel {
     name = yourName;
     lastAddress = msg.sender;
     lastUpdate = now;
-    Interaction(name,lastAddress,lastUpdate);
+    emit Interaction(name,lastAddress,lastUpdate);
   }
 
 }
