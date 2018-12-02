@@ -1,16 +1,16 @@
-pragma solidity ^0.4.6;
+pragma solidity ^0.5.0;
 
 contract Calculator {
 
   uint result;
 
-  function Calculator() public {
+  constructor() public {
     // constructor
     result=10;
   }
 
   // returns the result
-  function getResult() public constant returns (uint){
+  function getResult() public view returns (uint){
     return result;
   }
 
