@@ -1,4 +1,4 @@
-pragma solidity ^0.4.6;
+pragma solidity ^0.5.0;
 
 contract CalculatorV2 {
 
@@ -9,13 +9,13 @@ contract CalculatorV2 {
   event NumberMultiplied(uint n);
   event NumberDivided(uint n);
 
-  function CalculatorV2(uint num) public {
+  constructor(uint num) public {
     // constructor
     result=num;
   }
 
   // returns the result
-  function getResult() public constant returns (uint){
+  function getResult() public view returns (uint){
     return result;
   }
 
