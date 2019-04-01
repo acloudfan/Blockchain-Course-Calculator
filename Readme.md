@@ -1,12 +1,26 @@
-Part of the course on "Ethereum Blockchain DAPP Development"
+## Part of the course on "Ethereum Blockchain DApp Development"
 http://www.ACloudFan.com
 
-MAC/UBUNTU/LINUX Users:
+### MAC/UBUNTU/LINUX Users:
+Please rename truffle-config.js to config.js
 
-Please rename truffle-config to config.js
+### Sample Contracts
+The following sample smart contracts are used across several lectures:
+* Calculator
+* CalculatorV2
+* CalculatorV3
+* interactionChannel
 
-Calculator/CalculatorV2/interactionChannel contract is used as a sample in lectures in the course
+### Objectives
+The aim is to achieve the following objectives:
+1. Introduction to DApp development
+2. Demonstrate the use of various wallets
+3. How to manage smart contracts
+4. Introduction to Remix
+5. Demonstrate the use of a browser based Solidity IDE for smart contract development
+6. Development of contracts using Truffle framework
 
-1  DAPP development sample and for demonstrating the use of wallets for managing contracts
-2. For demonstrating use of Broweser based Solidity contract development
-2. Development of contracts using Truffle framework
+#### Legend:
+- DApp: Decentralised Application
+- IDE: Integrated Development Environment
+- Remix: Solidity IDE
